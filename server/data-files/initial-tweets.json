@@ -2,18 +2,28 @@
   {
     "user": {
       "name": "Newton",
+<<<<<<< HEAD
       "avatars": "https://i.imgur.com/73hZDYK.png",
+=======
+      "avatars": "https://i.imgur.com/73hZDYK.png"
+      ,
+>>>>>>> d0ffc5a42d4d3ef629e27b693c1898b8e1aa1ce1
       "handle": "@SirIsaac"
     },
     "content": {
       "text": "If I have seen further it is by standing on the shoulders of giants"
     },
+<<<<<<< HEAD
     "created_at": 1638374049906
+=======
+    "created_at": 1461116232227
+>>>>>>> d0ffc5a42d4d3ef629e27b693c1898b8e1aa1ce1
   },
   {
     "user": {
       "name": "Descartes",
       "avatars": "https://i.imgur.com/nlhLi3I.png",
+<<<<<<< HEAD
       "handle": "@rd"
     },
     "content": {
@@ -22,3 +32,12 @@
     "created_at": 1638460449906
   }
 ]
+=======
+      "handle": "@rd" },
+    "content": {
+      "text": "Je pense , donc je suis"
+    },
+    "created_at": 1461113959088
+  }
+]
+>>>>>>> d0ffc5a42d4d3ef629e27b693c1898b8e1aa1ce1
