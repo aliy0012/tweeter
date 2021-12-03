@@ -24,4 +24,5 @@ This repository is the starter code for the project: Students will fork and clon
 - bootsrtap
 - body-parser
 - cookie-session
+- EJS
 
