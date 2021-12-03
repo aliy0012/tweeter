@@ -12,3 +12,21 @@ nav {
   color: #ffffff;
   font-size: 25px;  
 }
+
+.logo{
+  font-family: 'Bungee', cursive;
+}
+
+nav i {
+  position: absolute;
+  right: 5em;
+  bottom: 0.7em;
+  color: red;
+  
+}
+
+.write-tweet {
+  font-size: smaller;
+  font-family: 'Source Sans Pro', sans-serif; 
+  cursor: pointer;
+}
