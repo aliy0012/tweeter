@@ -1,0 +1,22 @@
+.main-header {
+  height: 400px;
+  width: 100%;
+  background-image: url("images/dark-brick-wall.png");
+  background-color:lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.main-header h2 {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-header {
+    width: 33%;
+    margin-top: 125px;
+  }
+}
