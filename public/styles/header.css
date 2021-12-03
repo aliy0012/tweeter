@@ -2,7 +2,7 @@
   height: 400px;
   width: 100%;
   background-image: url("images/dark-brick-wall.png");
-  background-color:lightpink;
+  background-color:rgb(187, 238, 245);
   display: flex;
   justify-content: center;
   align-items: center;
