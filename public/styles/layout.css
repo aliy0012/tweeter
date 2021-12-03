@@ -14,12 +14,91 @@ html {
  * Global layout stuff
  */
 
-body {
+ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif; 
+  padding-top: 100px;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ .container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+.content-container{
+  padding: 1.5em;
+}
+
+p {
+  align-content: center;
+  background-color: #f4f1ec;
+}
+
+main article:hover {
+  font-weight: bold;
+  box-shadow: 10px 10px 5px rgb(57, 40, 211);
+}
+
+main article:hover .handle {
+  visibility: visible;
+}
+
+main article {
+  margin-top: 50px;
+  border: solid 5px grey;
+  padding: 10px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+article footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 16px;
+  border-top: solid 5px gray;
+}
+
+article header {
+  display: flex;
+  justify-content: space-between;
+}
+
+article header div {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+article footer i {
+  padding-right: 10px;
+}
+
+.fa-flag:hover {
+  color:rgb(161, 80, 185);
+}
+
+.fa-retweet:hover {
+  color:rgb(211, 123, 73);
+}
+.fa-heart:hover {
+  color:royalblue;
+}
+
+@media only screen and (min-width: 1024px) {
+  .content-container {
+    width: 50%;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
