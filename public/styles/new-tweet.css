@@ -1,0 +1,52 @@
+.new-tweet {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new-tweet div {
+  font-family: 'Bungee', cursive;
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-tweet textarea {
+  background-color: #f4f1ec;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  border: none;
+  border-bottom: solid 5px grey;
+}
+
+.new-tweet button {
+  background-color: #4056A1;
+  color: #FFFFFF;
+  cursor: pointer;
+  
+}
+
+.redLimit {
+  color: red;
+}
+
+.handle {
+  visibility: hidden;
+  color: #add8e6;
+}
+
+.error-message {
+  color: red;
+  display: flex;
+  align-items: center;
+  font-size: 14;
+}
+
+
+.hidden {
+  display: none;
+}
