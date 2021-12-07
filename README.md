@@ -1,7 +1,7 @@
-![screenshot]()
-![screenshot]()
-![screenshot]()
-![screenshot]()
+![screenshot](https://github.com/aliy0012/tweeter/blob/master/public/images/1.png)
+![screenshot](https://github.com/aliy0012/tweeter/blob/master/public/images/2.png)
+![screenshot](https://github.com/aliy0012/tweeter/blob/master/public/images/3.png)
+![screenshot](https://github.com/aliy0012/tweeter/blob/master/public/images/4.png)
 
 # Tweeter Project
 
@@ -24,4 +24,5 @@ This repository is the starter code for the project: Students will fork and clon
 - bootsrtap
 - body-parser
 - cookie-session
+- EJS
 
