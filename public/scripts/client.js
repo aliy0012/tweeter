@@ -38,8 +38,8 @@ $(document).ready(function() {
   const createTweetElement = function(tweet) {
     let $tweet = (`
       <article class = "tweets">
-        <header>
-          <a><i class="fa-brands fa-canadian-maple-leaf"></i>${escape(tweet.user.name)}</a>
+        <header>       
+          <a><img src=${escape(tweet.user.avatars)} alt="${escape(tweet.user.handle)}-avatar"> &nbsp; &nbsp; ${escape(tweet.user.name)}</a>
           <span class = "username">${escape(tweet.user.handle)}</span>
         </header>
         <br>
